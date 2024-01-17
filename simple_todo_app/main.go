@@ -19,8 +19,7 @@ func main() {
 		fmt.Printf("\n\nOptions : \n1. Add task\n3.Exit choice: ")
 		var choice uint8
 		fmt.Scanln(&choice)
-		
-		
+
 		switch choice {
 		case 1:
 			scanner := bufio.NewScanner(os.Stdin)
